@@ -1,5 +1,5 @@
 [package]
-name = "hpdms"
+name = "hpms"
 version = "0.1.0"
 authors = ["Luca Visentin <luca.visentin@unito.it>"]
 edition = "2021"
