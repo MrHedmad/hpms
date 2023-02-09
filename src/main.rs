@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 use clap::{Parser, Subcommand};
 use log;
-use hpdms;
+use hpms;
 
 #[derive(Parser)]
 #[command(name = "hpdms")]
@@ -75,7 +75,7 @@ fn main() -> Result<(), RuntimeError> {
     let command = cli.command;
     log::info!("You specified {:?}", command);
 
-    hpdms::hello_world();
+    hpms::hello_world();
 
     Ok(())
 }
